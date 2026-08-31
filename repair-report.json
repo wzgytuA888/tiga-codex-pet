@@ -1,0 +1,46 @@
+{
+  "version": "v1.0.1",
+  "date": "2026-08-31",
+  "repair_scope": {
+    "used_frames": 57,
+    "rows": [
+      "idle",
+      "running-right",
+      "running-left",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review"
+    ]
+  },
+  "alpha_hole_pixels": {
+    "alpha_eq_0": {
+      "before": 9959,
+      "after": 0
+    },
+    "alpha_le_8": {
+      "after": 0
+    },
+    "alpha_le_63": {
+      "after": 0
+    }
+  },
+  "white_low_alpha_pixels": {
+    "criteria": "RGB channels >= 248 and 0 < alpha <= 64",
+    "before": 10157,
+    "after": 105
+  },
+  "validation": {
+    "atlas_size": "1536x1872",
+    "mode": "RGBA",
+    "transparent_rgb_residue_pixels": 0,
+    "frame_review_errors": 0,
+    "frame_review_warnings": 0,
+    "atlas_validation_errors": 0,
+    "atlas_validation_warnings": 0,
+    "visual_qa": "pass"
+  },
+  "visual_qa_note": "All 57 frames passed black, magenta, white, contact-sheet, and motion-preview review without transparency holes, white matte, new joins, or filled intentional limb gaps."
+}
